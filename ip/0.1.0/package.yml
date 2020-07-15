@@ -10,4 +10,4 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: "echo -n $(dig @resolver1.opendns.com ANY myip.opendns.com +short)"
+          cmd: "echo -n $(curl ifconfig.me)"
